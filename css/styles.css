@@ -1,0 +1,32 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+:root{
+    --main-color1: blue;
+    --main-color2: darkblue;
+}
+
+h1{
+    margin-top: 36px;
+    font-size: 1.8em;
+    color: var(--main-color1);
+}
+
+h2{
+    margin-top: 24px;
+    font-size: 1.5em;
+    color: var(--main-color2);
+}
+
+.text{
+    font-size: 1.2em;
+}
+
+.footer-text{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
